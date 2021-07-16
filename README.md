@@ -5,3 +5,6 @@ Some tools written in python, hope to be helpful to your work, welcome to subscr
 
 ### 1 图像测试标注代码
 效果：
+![image](master/图像测试标注代码Python版/woman_GT.bmp)
+![image](master/图像测试标注代码Python版/output.png)
+
