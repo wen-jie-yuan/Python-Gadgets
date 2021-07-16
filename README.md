@@ -6,6 +6,6 @@ Some tools written in python, hope to be helpful to your work, welcome to subscr
 ### 1 图像测试标注代码
 效果图：
 
-![image](https://github.com/wen-jie-yuan/Python-Gadgets/tree/master/image_annotation/image_annotation_Python/woman_GT.bmp)
-![image](https://github.com/wen-jie-yuan/Python-Gadgets/tree/master/image_annotation/image_annotation_Python/output.png)
+![image](master/image_annotation/image_annotation_Python/woman_GT.bmp)
+![image](master/image_annotation/image_annotation_Python/output.png)
 
