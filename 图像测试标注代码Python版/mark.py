@@ -27,13 +27,13 @@ img_area = img.crop(box)
 # 裁剪区域放大
 img_area = img_area.resize((w * enlarge_factor, h * enlarge_factor), Image.ANTIALIAS)
 # 粘贴，第二个参数指定粘贴位置（根据需要调节）
-img.paste(img_area, (img_w - w * enlarge_factor, img_h - h * enlarge_factor))
+img.paste(img_area, (img_w - w * enlarge_factor-1, img_h - h * enlarge_factor-1))
 # 保存图片
 img.save('output.png')
 img = cv2.imread('output.png')
 # 绘制边框，第二第三个参数元祖表示指定框选区域，第四个参数指定线条颜色，第五个参数指定线条宽度
 cv2.rectangle(img, (x, y), (x1, y1), (0, 0, 255), 2)
-cv2.rectangle(img, (img_w - w * enlarge_factor, img_h - h * enlarge_factor), (img_w, img_h), (0, 0, 255), 2)
+cv2.rectangle(img, (img_w - w * enlarge_factor-1, img_h - h * enlarge_factor-1), (img_w-2, img_h-2), (0, 0, 255), 2)
 cv2.imshow("Image", img)
 cv2.imwrite('output.png', img)
 cv2.waitKey(0)
