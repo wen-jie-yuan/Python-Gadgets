@@ -4,9 +4,12 @@ Some tools written in python, hope to be helpful to your work, welcome to subscr
 
 
 ### 1 图像测试标注代码（[image_annotation](https://github.com/wen-jie-yuan/Python-Gadgets/tree/master/image_annotation)）
+environment：opencv + pillow
+
 效果图：
 
 ![](image_annotation/image_annotation_Python/woman_GT.bmp)
 ![](image_annotation/image_annotation_Python/output.png)
 
-### 2 图像测试PSNR and SSIM（[PSNR_SSIM](https://github.com/wen-jie-yuan/Python-Gadgets/tree/master/test_image_PSNR_SSIM)）
+### 2 图像测试PSNR and SSIM（[test_PSNR_SSIM](https://github.com/wen-jie-yuan/Python-Gadgets/tree/master/test_image_PSNR_SSIM)）
+environment：opencv + skimage
